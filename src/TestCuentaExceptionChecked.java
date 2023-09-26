@@ -4,7 +4,7 @@ public class TestCuentaExceptionChecked {
         try {
             cuenta.deposita();
         } catch (MiException e) {
-            e.printStackTrace();
+            e.printStackTrace(e);
         }
     }
 }
